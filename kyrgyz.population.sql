@@ -1,0 +1,13 @@
+-- CREATE TABLE developers(
+--     id SERIAL PRIMARY KEY,
+--     name VARCHAR(30),
+--     population INT);
+-- INSERT INTO developers(name, population) VALUES ('Chuy', 100000);
+-- INSERT INTO developers(name, population) VALUES ('Osh', 200000);
+-- INSERT INTO developers(name, population) VALUES ('Naryn', 300000);
+-- ALTER TABLE developers ADD teams VARCHAR(20);
+-- ALTER TABLE developers RENAME population TO participants;
+-- DELETE FROM developers WHERE participants=300000;
+-- SELECT * FROM developers;
+-- UPDATE developers SET participants=participants-7000 WHERE participants>80000; 
+-- SELECT * FROM developers;

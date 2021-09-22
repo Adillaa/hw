@@ -1,0 +1,21 @@
+-- CREATE TABLE developers(
+--     id SERIAL PRIMARY KEY,
+--     name VARCHAR(20),
+--     skill INT ,
+--     programming_lang VARCHAR DEFAULT 'HTML');
+
+-- ALTER TABLE developers RENAME COLUMN skill TO age;
+
+-- INSERT INTO developers(name, age, programming_lang) VALUES('Bakyt', '23', 'Python');
+-- SELECT * FROM developers;
+-- INSERT INTO developers(name, age, programming_lang) VALUES('Beka', '15', 'Java');
+-- INSERT INTO developers(name, age, programming_lang) VALUES ('Gulya', '30', 'Javascript');
+-- INSERT INTO developers(name, age, programming_lang) VALUES ('Beka', '39', 'Assembler');
+-- ALTER TABLE developers ADD cash INT;
+-- INSERT INTO developers(name, age, programming_lang, cash) VALUES('KAtya', '16', 'Python', 3000);
+-- SELECT * FROM developers;
+-- UPDATE developers SET age=27 WHERE age>25;
+-- SELECT * FROM developers;
+-- COMMENT ON COLUMN developers.name is 'Имя пользователя';
+-- UPDATE developers SET name='Ekaterina' WHERE name='KAtya';
+-- SELECT * FROM developers;
